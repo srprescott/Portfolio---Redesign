@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amita|Open+Sans+Condensed:300|PT+Serif|ZCOOL+XiaoWei&display=swap');
+
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.none{
+    font-family: 'Kurale', serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Francois One', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+    
+    
+    
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'PT Serif', serif;
+
+    font-family: 'Amita', cursive;
+
+    font-family: 'ZCOOL XiaoWei', serif;
+
+
+    
+    <i class="fas fa-gamepad"></i> - Games
+    <i class="fas fa-glasses"></i> - Glasses
+    <i class="fas fa-code"></i> - Code
+    <i class="fas fa-coffee"></i> - Coffee
+    <i class="fas fa-laptop-code"></i> - Laptop
+    <i class="fas fa-keyboard"></i> - Keyboard
+    <i class="fas fa-mobile-alt"></i> - Mobile
+    <i class="fas fa-desktop"></i> - Desktop
+    <i class="fas fa-tablet-alt"></i> - tablet
+    <i class="far fa-heart"></i> - heart
+    <i class="fas fa-heart"></i> 
+    <i class="fas fa-heartbeat"></i>
+    
+    <i class="fas fa-paper-plane"></i> - paper airplane
+    <i class="far fa-clock"></i> - clock
+    <i class="fas fa-palette"></i> - Palette
+    
+    <i class="fas fa-plus"></i>
+    <i class="fas fa-equals"></i>
+    
+    
+    
+    
+    color:#0075f2;
+    color:#00f2f2;
+    color:#52489c;
+    color:#F5B700;
+    color:#FF595E;
+}
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+
+
+
+@-webkit-keyframes colors {
+  0%     {background-color: #00f2f2;}
+  20%    {background-color: #52489c;}
+  40%    {background-color: #FF595E;}
+  60%    {background-color: #F5B700;}
+  80%    {background-color: #0075f2;}
+  100%   {background-color: #00f2f2;}
+}
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+
+
+
+@keyframes colors {
+  0%     {background-color: #00f2f2;}
+  20%    {background-color: #52489c;}
+  40%    {background-color: #FF595E;}
+  60%    {background-color: #F5B700;}
+  80%    {background-color: #0075f2;}
+  100%   {background-color: #00f2f2;}
+}
+
+.container-fluid{
+    -webkit-animation: colors 50s infinite;
+    animation: colors 50s infinite;
+}
+
+.one{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-animation: colors 50s infinite;
+    animation: colors 50s infinite;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:white;
+}
+
+
+.logo{
+    font-size: 2.5rem;
+    color:white;
+}
+
+
+
+
+.buzz-box{
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fas{
+    padding: 15px 0;
+    margin: 5px;
+}
+
+.buzz{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+/*////////////// Two ///////////////*/
+
+.two{
+    height: 200px;
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+/* NAVBAR START */
+
+.header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.topnav a {
+    color: white;
+}
+
+.topnav a:hover {
+    text-decoration: none;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav .this-page {
+    display: none;
+}
+
+
+/* END NAVBAR */
+
+
+
+
+
+
+
+
+
+/*////////////// FOOTER ///////////////*/
+
+footer{
+    color:white;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding:10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: center;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.foot{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fas{
+    margin:20px;
+    color:white;
+}
+
+.fab{
+    margin: 10px;
+    color:white;
+}
+
+h4 a{
+    color:white;
+}
+
+
+
+
+
+/* NAVBAR */
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        display: none;
+        color: white;
+    }
+    .topnav .this-page {
+        display: block;
+        color: white;
+        float: left;
+        display: block;
+        text-align: center;
+        margin: 10px;
+        font-size: 2rem;
+    }
+    .topnav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        font-size: 4em;
+    }
+    .icon {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        color: white;
+        font-size: 4em;
+    }
+}
+
+/* NAVBAR */
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {}
+}
+
+@media screen and (max-width:1400px) {
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .foot-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .foot-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .foot-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .foot-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .foot-blurb{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+}
