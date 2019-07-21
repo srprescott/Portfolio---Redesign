@@ -2,17 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amita|Open+Sans+Condensed:300|PT+Serif|ZCOOL+XiaoWei&display=swap');
 
-*{
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin: 0;
-    padding: 0;
-    
-}
 
-
-body{
-    overflow-x: hidden;
-}
 
 
 .none{
@@ -63,6 +53,7 @@ body{
     color:#52489c;
     color:#F5B700;
     color:#FF595E;
+    color:#540d6e;
 }
 
 
@@ -70,110 +61,38 @@ body{
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
 
-
-
+body{
+    overflow-x: hidden;
+}
 
 @-webkit-keyframes colors {
   0%     {background-color: #00f2f2;}
-  20%    {background-color: #52489c;}
-  40%    {background-color: #FF595E;}
-  60%    {background-color: #F5B700;}
-  80%    {background-color: #0075f2;}
+  20%    {background-color: #0075f2;}  
+  40%    {background-color: #52489c;}
+  60%    {background-color: #FF595E;}
+  80%    {background-color: #F5B700;}
   100%   {background-color: #00f2f2;}
 }
 
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-
-
-
-
 @keyframes colors {
   0%     {background-color: #00f2f2;}
-  20%    {background-color: #52489c;}
-  40%    {background-color: #FF595E;}
-  60%    {background-color: #F5B700;}
-  80%    {background-color: #0075f2;}
+  20%    {background-color: #0075f2;}  
+  40%    {background-color: #52489c;}
+  60%    {background-color: #FF595E;}
+  80%    {background-color: #F5B700;}
   100%   {background-color: #00f2f2;}
 }
 
 .container-fluid{
     -webkit-animation: colors 50s infinite;
     animation: colors 50s infinite;
-}
-
-.one{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    -webkit-animation: colors 50s infinite;
-    animation: colors 50s infinite;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color:white;
-}
-
-
-.logo{
-    font-size: 2.5rem;
-    color:white;
-}
-
-
-
-
-.buzz-box{
-    padding: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.fas{
-    padding: 15px 0;
-    margin: 5px;
-}
-
-.buzz{
-    font-size: 2rem;
-}
-
-
-
-
-
-
-
-/*////////////// Two ///////////////*/
-
-.two{
-    height: 200px;
-    background-color:white;
 }
 
 
@@ -253,11 +172,194 @@ body{
 
 
 
+/*////////////// One ///////////////*/
+
+
+
+.one{
+    height: 950px;
+    width: 100%;
+    -webkit-animation: colors 50s infinite;
+    animation: colors 50s infinite;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:white;
+}
+
+
+.logo{
+    font-size: 2.5rem;
+    color:white;
+}
+
+
+
+
+.buzz-box{
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fas{
+    padding: 15px 0;
+    margin: 5px;
+}
+
+.buzz{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+/*////////////// Two ///////////////*/
+
+.two{
+    height: 970px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:white;
+    background-color: #0075f2;
+}
+
+.blurb{
+    font-size: 1.5rem;
+}
+
+.skills-head{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.blurb-head{
+    margin: 15px 100px;
+    font-size: 2rem;
+}
+
+.skills-box{
+    margin: 100px;
+}
+
+.blurb-p{
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*////////////// Three ///////////////*/
+
+.three{
+    height: 970px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:white;
+    background-color: #52489c;
+}
+
+.three img{
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 15px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+}
+
+.three img:hover{
+    -webkit-filter: brightness(1.25);
+    filter: brightness(1.25);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*////////////// FOOTER ///////////////*/
 
 footer{
     color:white;
-    position: absolute;
     bottom:0;
     width: 100%;
     padding:10px;
