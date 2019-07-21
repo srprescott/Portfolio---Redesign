@@ -221,6 +221,7 @@ body{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    
 }
 
 .fas{
@@ -241,7 +242,7 @@ body{
 /*////////////// Two ///////////////*/
 
 .two{
-    height: 970px;
+    height: 1000px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -261,7 +262,7 @@ body{
 }
 
 .blurb{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .skills-head{
@@ -278,11 +279,19 @@ body{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    
+}
+
+.blurb-title{
+    margin: 15px 100px;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .blurb-head{
     margin: 15px 100px;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    text-align: center;
 }
 
 .skills-box{
@@ -304,15 +313,15 @@ body{
 /*////////////// Three ///////////////*/
 
 .three{
-    height: 970px;
+    height: 1000px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -323,21 +332,242 @@ body{
     background-color: #52489c;
 }
 
-.three img{
+.boxes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.why-box{
+    width:800px;
+    padding: 40px;
+    margin: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.75);
+    background-color:	#746CAF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////// Four ///////////////*/
+
+.four{
+    height: 1000px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:white;
+    background-color:  #F89B1C;
+}
+
+.port-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.four img{
     -webkit-transition: 1s;
     transition: 1s;
     margin: 15px;
-    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
-.three img:hover{
+.four img:hover{
     -webkit-filter: brightness(1.25);
     filter: brightness(1.25);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
+
+
+
+
+
+
+
+
+
+/*////////////// Five ///////////////*/
+
+.five{
+    height: 1000px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:white;
+    background-color: #00A9A9;
+}
+
+.contact-box{
+    margin: 15px 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-blurb{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.blurb a{
+    color:white;
+}
+
+
+
+form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+input, textarea{
+    padding: 5px 20px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    font-size: 1.5rem;
+}
+
+input{
+    height:50px;
+}
+
+textarea{
+    height: 150px;
+}
+
+button{
+    font-size: 1.8rem;
+    border:none;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px 20px;
+    margin: 15px;
+    background-color: #0075f2;
+    color:white;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
 
 
 
@@ -390,7 +620,7 @@ footer{
     align-items: center;
 }
 
-.fas{
+.fas, .far{
     margin:20px;
     color:white;
 }
