@@ -655,7 +655,6 @@ h4 a{
 
 
 
-
 /* NAVBAR */
 
 @media screen and (max-width: 600px) {
@@ -776,8 +775,19 @@ h4 a{
         height:100%;
         width: 100%;
         text-align: center;
-        padding: 40px 0;
         
+    }
+    
+    .why-box{
+        padding: 40px 0;
+    }
+    
+    .one{
+        padding-bottom: 40px;
+    }
+    
+    .why-box{
+        padding: 40px 0;
     }
     
     .why-box, .four img, .blurb-head{
@@ -853,8 +863,19 @@ h4 a{
         height:100%;
         width: 100%;
         text-align: center;
-        padding: 40px 0;
         
+    }
+    
+    .why-box{
+        padding: 40px 0;
+    }
+    
+    .one{
+        padding-bottom: 40px;
+    }
+    
+    .why-box{
+        padding: 40px 0;
     }
     
     .why-box, .four img, .blurb-head{
@@ -930,8 +951,18 @@ h4 a{
         height:100%;
         width: 100%;
         text-align: center;
+    }
+    
+    .why-box{
         padding: 40px 0;
-        
+    }
+    
+    .one{
+        padding-bottom: 40px;
+    }
+    
+    .buzz-box{
+        padding: 0;
     }
     
     .why-box, .four img, .blurb-head{
@@ -1007,8 +1038,18 @@ h4 a{
         height:100%;
         width: 100%;
         text-align: center;
-        padding: 40px 0;
         
+    }
+    .why-box{
+        padding: 40px 0;
+    }
+    
+    .one{
+        padding-bottom: 40px;
+    }
+    
+    .why-box{
+        padding: 40px 0;
     }
     
     .why-box, .four img, .blurb-head{
@@ -1084,8 +1125,19 @@ h4 a{
         height:100%;
         width: 100%;
         text-align: center;
-        padding: 40px 0;
         
+    }
+    
+    .why-box{
+        padding: 40px 0;
+    }
+    
+    .one{
+        padding-bottom: 40px;
+    }
+    
+    .why-box{
+        padding: 40px 0;
     }
     
     .why-box, .four img, .blurb-head{
